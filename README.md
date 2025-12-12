@@ -1,28 +1,19 @@
-# cs-portfolio--James-Kofa-
-# CS Portfolio — Artemis Financial (Journal Submission)
+## Mobile App Portfolio Artifact – Transend Inventory App
 
-**Repository:** <paste your GitHub repo URL>  
-**Artifact submitted:** <Vulnerability Assessment Report OR Practices for Secure Software Report>  
-**File path in repo:** artifacts/<your-file-name>.pdf
+### Summary of App Requirements and Goals
+The goal of this project was to design and develop a functional mobile inventory application called **Transend**. The app was created to help users track inventory items in a simple and organized way. It allows users to add items, view stored inventory, and manage item details. This app was designed to address the need for a basic, easy-to-use inventory system without relying on paper records or multiple tools.
 
-## Summary of Client & Requirements
-Artemis Financial is a fintech company handling sensitive client and transaction data. They asked me to evaluate their application for security risks and strengthen the codebase to address transport security, dependency risks, and data integrity while preserving functionality.
+### User Interface Screens and Features
+The app includes key screens such as an inventory list screen and an add/edit item screen. These screens support user needs by keeping navigation simple and reducing unnecessary steps. The UI design focuses on clear labels, consistent layouts, and intuitive controls so users can quickly understand how to use the app. The design was successful because it made common actions, such as viewing and adding inventory items, easy and accessible.
 
-## What I Did Well & Why Secure Coding Matters
-I mapped findings to specific controls (TLS, dependency hygiene, input validation) and prioritized remediations with clear justification. Secure coding reduces breach risk, protects customers, limits legal exposure, and preserves brand trust and uptime.
+### Coding Approach and Strategies
+I approached coding the app by breaking the project into smaller parts and building each feature step by step. I focused on keeping the code organized and readable while connecting the user interface to the underlying logic. This approach helped reduce errors and made debugging easier. These strategies can be applied to future projects by improving development efficiency and code maintainability.
 
-## Challenging/Helpful Parts
-Triaging dependency-scan “noise” vs. real risk was the hardest. Building a repeatable checklist (TLS checks, header/cipher review, dependency pinning, validation) was most helpful.
+### Testing and Functionality
+Testing was done by running the app in the emulator and verifying that each feature worked correctly. I tested adding items, viewing inventory data, and navigating between screens. This process is important because it ensures the app works as expected for users and helps identify issues early. Testing revealed minor issues that were fixed before final submission.
 
-## Layers of Security & Future Assessments
-I enforced HTTPS/TLS, tightened cipher/protocol settings, validated input/output, used checksums for integrity, and cleaned third-party dependencies. In the future I’d combine SCA/SAST/DAST tools with manual threat modeling to choose mitigations.
+### Innovation and Challenges
+One challenge during development was ensuring the app met all requirements while remaining user-friendly. I overcame this by reviewing project guidelines carefully and making adjustments to the UI and logic as needed. This experience helped strengthen my problem-solving skills.
 
-## Verifying Functionality & Preventing New Vulnerabilities
-I re-ran tests and manual flows, verified TLS handshakes and headers, reviewed dependency reports, and repeated security scans to confirm fixes and ensure no new issues were introduced.
-
-## Reusable Tools & Practices
-Tools: OWASP Dependency-Check, keytool/openssl, build tooling.  
-Practices: least privilege, validation/encoding, defense in depth, version pinning, documented before/after evidence.
-
-## What I’d Show Employers
-The final report (problem → evidence → fix → validation), targeted security commits, and a verification checklist—demonstrating practical secure-coding skills and measurable improvements.
+### Most Successful Component
+The component I was most successful with was the inventory list and item management functionality. This part of the app demonstrates my ability to connect user interface elements with application logic and apply mobile development best practices.
