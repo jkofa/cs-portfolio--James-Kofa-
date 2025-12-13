@@ -1,19 +1,27 @@
-## Mobile App Portfolio Artifact – Transend Inventory App
+This portfolio artifact represents my work from CS-340, where I designed and implemented a Python-based dashboard connected to a MongoDB database for Grazioso Salvare. The project demonstrates my ability to design databases, create reusable CRUD operations, and connect backend data to an interactive user interface.
 
-### Summary of App Requirements and Goals
-The goal of this project was to design and develop a functional mobile inventory application called **Transend**. The app was created to help users track inventory items in a simple and organized way. It allows users to add items, view stored inventory, and manage item details. This app was designed to address the need for a basic, easy-to-use inventory system without relying on paper records or multiple tools.
+Writing Maintainable, Readable, and Adaptable Programs
 
-### User Interface Screens and Features
-The app includes key screens such as an inventory list screen and an add/edit item screen. These screens support user needs by keeping navigation simple and reducing unnecessary steps. The UI design focuses on clear labels, consistent layouts, and intuitive controls so users can quickly understand how to use the app. The design was successful because it made common actions, such as viewing and adding inventory items, easy and accessible.
+I focused on writing maintainable and readable code by separating database logic from the dashboard interface. I created a reusable CRUD Python module in Project One and used it again in Project Two to connect the dashboard widgets to the MongoDB database. This approach made the code easier to understand, debug, and update.
 
-### Coding Approach and Strategies
-I approached coding the app by breaking the project into smaller parts and building each feature step by step. I focused on keeping the code organized and readable while connecting the user interface to the underlying logic. This approach helped reduce errors and made debugging easier. These strategies can be applied to future projects by improving development efficiency and code maintainability.
+One major advantage of this design was flexibility. If database logic needed to change, it could be updated in one place without affecting the dashboard code. In the future, this CRUD module could be reused for other dashboards, APIs, or applications that require database access, reducing development time and improving consistency.
 
-### Testing and Functionality
-Testing was done by running the app in the emulator and verifying that each feature worked correctly. I tested adding items, viewing inventory data, and navigating between screens. This process is important because it ensures the app works as expected for users and helps identify issues early. Testing revealed minor issues that were fixed before final submission.
+Problem-Solving Approach as a Computer Scientist
 
-### Innovation and Challenges
-One challenge during development was ensuring the app met all requirements while remaining user-friendly. I overcame this by reviewing project guidelines carefully and making adjustments to the UI and logic as needed. This experience helped strengthen my problem-solving skills.
+I approached this project by first understanding the client’s requirements, specifically how Grazioso Salvare needed to filter and view rescue animal data. I planned the database structure and queries before building the dashboard, which helped ensure the data was displayed accurately and efficiently.
 
-### Most Successful Component
-The component I was most successful with was the inventory list and item management functionality. This part of the app demonstrates my ability to connect user interface elements with application logic and apply mobile development best practices.
+This approach differed from earlier coursework because it required thinking beyond individual assignments and focusing on how multiple components work together. In the future, I would use similar strategies by gathering requirements early, designing flexible database schemas, and testing queries independently before integrating them into user interfaces.
+
+The Role of Computer Scientists and Why It Matters
+
+Computer scientists design systems that help organizations make better use of their data. In this project, the dashboard allows Grazioso Salvare to quickly filter and analyze rescue animal information, which supports better decision-making and operational efficiency.
+
+Projects like this matter because they transform raw data into useful insights. By creating reliable and efficient software tools, computer scientists help organizations save time, reduce errors, and focus on achieving their goals.
+
+ncluded Artifacts
+
+Final Python dashboard application
+
+Reusable CRUD Python module
+
+Project Two README documentation (Word file)
