@@ -1,27 +1,27 @@
-This portfolio artifact represents my work from CS-340, where I designed and implemented a Python-based dashboard connected to a MongoDB database for Grazioso Salvare. The project demonstrates my ability to design databases, create reusable CRUD operations, and connect backend data to an interactive user interface.
+## Welcome to My Computer Science Portfolio
 
-Writing Maintainable, Readable, and Adaptable Programs
+This portfolio represents the work I completed throughout my Computer Science program at SNHU. It includes multiple projects from different courses that helped me build skills in software development, databases, algorithms, problem solving, and system design.
 
-I focused on writing maintainable and readable code by separating database logic from the dashboard interface. I created a reusable CRUD Python module in Project One and used it again in Project Two to connect the dashboard widgets to the MongoDB database. This approach made the code easier to understand, debug, and update.
+The purpose of this portfolio is to show my growth as a student and future technology professional. Each project helped me improve in different areas such as coding, debugging, planning, communication, and creating practical solutions.
 
-One major advantage of this design was flexibility. If database logic needed to change, it could be updated in one place without affecting the dashboard code. In the future, this CRUD module could be reused for other dashboards, APIs, or applications that require database access, reducing development time and improving consistency.
+## Projects Included
 
-Problem-Solving Approach as a Computer Scientist
+- CS 340 Database Dashboard Project  
+- CS 465 Travlr Full-Stack Web Application  
+- Algorithms and Data Structures Enhancement  
+- CS 499 Capstone Enhancements  
+- Professional Self-Assessment  
 
-I approached this project by first understanding the client’s requirements, specifically how Grazioso Salvare needed to filter and view rescue animal data. I planned the database structure and queries before building the dashboard, which helped ensure the data was displayed accurately and efficiently.
+## Skills Demonstrated
 
-This approach differed from earlier coursework because it required thinking beyond individual assignments and focusing on how multiple components work together. In the future, I would use similar strategies by gathering requirements early, designing flexible database schemas, and testing queries independently before integrating them into user interfaces.
+- Software Design and Development  
+- Database Management  
+- Front-End and Back-End Development  
+- Problem Solving  
+- Testing and Debugging  
+- Technical Writing  
+- Project Improvement and Enhancement  
 
-The Role of Computer Scientists and Why It Matters
+## Final Note
 
-Computer scientists design systems that help organizations make better use of their data. In this project, the dashboard allows Grazioso Salvare to quickly filter and analyze rescue animal information, which supports better decision-making and operational efficiency.
-
-Projects like this matter because they transform raw data into useful insights. By creating reliable and efficient software tools, computer scientists help organizations save time, reduce errors, and focus on achieving their goals.
-
-ncluded Artifacts
-
-Final Python dashboard application
-
-Reusable CRUD Python module
-
-Project Two README documentation (Word file)
+This portfolio reflects the time, effort, and progress I made during the program. It also shows that I can take past work, improve it, and present it professionally.
